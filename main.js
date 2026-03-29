@@ -1,3 +1,5 @@
+/*
+
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
@@ -68,3 +70,26 @@ for (let i = 1; i <= 4; i++) {
     }
     console.log(s);
 }
+*/
+
+
+function sum(a, b) {
+    return a + b;
+}
+console.log(sum(3, 5));
+
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(3, 5));
+
+function printInfo(name, age) {
+    console.log(name, age)
+}
+printInfo("dan", 18)
+
+function calculateDiscount(cost, percent = 10) {
+    return cost - (cost * percent / 100)
+}
+console.log(calculateDiscount(500, 50))
+
