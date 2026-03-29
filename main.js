@@ -93,3 +93,26 @@ function calculateDiscount(cost, percent = 10) {
 }
 console.log(calculateDiscount(500, 50))
 
+let numbersArr = [1, 2, 3, 4, 5];
+console.log(numbersArr);
+console.log(numbersArr[0]);
+console.log(numbersArr[1]);
+
+let colors = ["red", "green", "yellow"];
+console.log(colors[0], colors[2]);
+
+colors[1] = "white";
+console.log(colors);
+
+let stunents = [];
+stunents.push("sanya");
+stunents.push("sonya");
+stunents.push("vanya");
+stunents.pop();
+console.log(stunents);
+
+let citys = ["moscow", "volgograd"];
+if (citys.includes("moscow")) {
+    console.log(citys.indexOf("moscow"));
+}
+
