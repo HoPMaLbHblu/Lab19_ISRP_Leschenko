@@ -150,3 +150,4 @@ let product = {
 for (let pr in product) {
     console.log(pr + ": " + product[pr]);
 }
+/*
