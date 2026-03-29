@@ -116,3 +116,37 @@ if (citys.includes("moscow")) {
     console.log(citys.indexOf("moscow"));
 }
 
+let user2 = {
+    name: "Ivan",
+    age: 20,
+    isStudent: true,
+};
+
+console.log(user2);
+
+let book = {
+    title: "s",
+    author: "e",
+    year: 2007
+}
+console.log(book.title, book.author, book.year);
+book.year = 2006
+
+let car = {
+    brand: "bmw",
+    year: 2010,
+    getInfo: function () {
+        console.log(`Brand: ${this.brand}, year: ${this.year}`)
+    }
+}
+car.getInfo();
+
+let product = {
+    expiration: "20d",
+    name: "kefir",
+    cost: 120,
+}
+
+for (let pr in product) {
+    console.log(pr + ": " + product[pr]);
+}
